@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Web Ketiga</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            <img src="assets/icon/rzkicon.png" alt="logo" class="logo-img" />
+            <h1 class="logo-ttle">RISANG</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">RisangRzk</a></li>
+                    <li><a href="#jasa">JASA</a></li>
+                    <li><a href="https://www.instagram.com/risangrzk/" target="_blank" rel="noopener noreferrer">KONTAK</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hello, Risang Rizkia Here!</p>
+                <p class="description">AYO PUSH RANK!</p>
+                <img src="assets/foto/risang1.png" alt="risang foto 1" class="img-foto" />
+            </div>
+        </div>
+        <div class="parallax">
+                <div class="tentang">
+                    <p class="title">AKU ADALAH WUJUD ASLI CAHAYA</p>
+                    <p class="description">Ngoding aja dulu, jagonya belakangan.</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()">Chat Saya</button>
+                </div> 
+            </div>
+            <div class="container">
+                <div class="card" id="jasa">
+                    <div class="card-item">
+                        <img src="assets/icon/24-hours.png" alt="icon 1" class="icon" />
+                        <p class="card-title">Pelaanan Nonstop Push</p>
+                        <p class="card-description">Push Terus Sampe Wowo Kurus</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/hotdeal.png" alt="icon 2" class="icon" />
+                        <p class="card-title">Push Paling Murah!</p>
+                        <p class="card-description">Biaa Jasa Yang Saa Berikan Pasti Murah!</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/reviews.png" alt="icon 3" class="icon" />
+                        <p class="card-title">Rating Terbaik Bintang 5</p>
+                        <p class="card-description">Sudah Teruji Klinis</p>
+                    </div> 
+                </div> 
+            </div>  
+        </div>
+        <footer>
+            <p class="title">&copy;RisangRzk Website 2026</p>
+        </footer> 
+        <script>
+            function redirInstagram() {
+                window.location.href = "https://www.instagram.com/risangrzk/"
+            }
+            function redirWhatsapp() {
+                window.location.href = "https://wa.me/+6287781643201"
+            }
+        </script>  
+    </body>           
+</html>
