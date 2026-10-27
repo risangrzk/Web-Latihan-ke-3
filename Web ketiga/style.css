@@ -142,6 +142,8 @@ a {
 .card-item{
     text-align: center;
     width: 30%;
+    min-height: 200px;
+    max-height: 300px;
     background: #f7f7f7;
     color: #07a0e7;
     padding: 24px;
@@ -179,6 +181,7 @@ footer{
     }
     .card item {
         width: 100%;
+        opacity: .9;
     }
     .container {
         width: 100%;
@@ -203,5 +206,6 @@ footer{
 
     footer {
         margin-bottom: 70px;
+        margin-top: 70px;
     }
 }
